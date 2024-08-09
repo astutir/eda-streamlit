@@ -156,6 +156,6 @@ if uploaded_file is not None:
 
         st.write("### Rekomendasi Penanganan")
         st.write("""
-        - Jika ditemukan multikolinearitas, pertimbangkan untuk menghapus atau menggabungkan variabel yang memiliki korelasi tinggi.
+        - Jika ditemukan multikolinearitas, pertimbangkan untuk menghapus atau menggabungkan variabel atau menambah data yang memiliki korelasi tinggi.
         - Cek apakah hubungan antara kolom terkait memang relevan dengan tujuan analisis, atau jika ada variabel yang bisa diabaikan.
         """)
